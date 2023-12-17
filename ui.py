@@ -19,7 +19,7 @@ home = ttk.Window(themename="litera")
 home.title("HKU Gym Booker")
 
 
-photo = tk.PhotoImage(file = resource_path("icon.png"))
+photo = tk.PhotoImage(file = resource_path("images/icon.png"))
 home.wm_iconphoto(False, photo)
 
 # setting window size

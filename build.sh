@@ -1,1 +1,1 @@
-pyinstaller ui.py --noconsole --onefile --name "HKU Gym Booker" --icon icon.icns --add-data "icon.png:."
+pyinstaller ui.py --noconsole --onefile --name "HKU Gym Booker" --icon images/icon.icns --add-data "images/icon.png:."
