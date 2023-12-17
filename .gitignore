@@ -1,0 +1,33 @@
+# .gitignore
+
+# Ignore Python build artifacts
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Ignore Python distribution artifacts
+dist/
+build/
+*.egg
+*.egg-info/
+eggs/
+
+# Ignore Python environments
+.env
+.venv/
+ENV/
+
+# Ignore IDEs and editors artifacts
+.vscode/
+.idea/
+*.swp
+*.swo
+*.swn
+*.bak
+
+# Ignore OS generated files
+.DS_Store
+Thumbs.db
+
+*.spec
