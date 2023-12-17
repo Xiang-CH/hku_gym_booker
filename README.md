@@ -2,7 +2,7 @@
 
 This project is a gym booking application that allows HKU Students/Staff to find available gym sessions, redirect them to the booking page, or notify them when a session is available. The application is built using Python and Tkinter for the user interface.
 
-![Screenshot](docs/screenshot.png)
+![Screenshot](https://github.com/Xiang-CH/hku_gym_booker/blob/main/docs/Screenshot.png)
 
 ## Features
 
