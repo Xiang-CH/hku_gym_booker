@@ -4,10 +4,23 @@ from gym import getMetaData
 import webbrowser
 from pprint import pprint
 from datetime import datetime
+import os
+
+def resource_path(relative_path):
+    try:
+        base_path = sys._MEIPASS
+    except Exception:
+        base_path = os.path.abspath(".")
+
+    return os.path.join(base_path, relative_path)
 
 # create blank window
 home = ttk.Window(themename="litera")
-home.title("HKU Gym Booking")
+home.title("HKU Gym Booker")
+
+
+photo = tk.PhotoImage(file = resource_path("icon.png"))
+home.wm_iconphoto(False, photo)
 
 # setting window size
 home.geometry("500x430")
